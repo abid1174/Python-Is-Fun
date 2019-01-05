@@ -1,7 +1,7 @@
 from pytube import YouTube
 
 yt = YouTube(str(input("Enter the video link: ")))
-videos = yt.get_videos()
+videos = yt.streams.all()
 
 s = 1
 for v in videos:
