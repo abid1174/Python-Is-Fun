@@ -14,4 +14,4 @@ vid = videos[n-1]
 destination = str(input("Enter the destination: "))
 vid.download(destination)
 
-print(yt.filename+"\nHas been successfully downloaded")
+print(yt.title+"\nHas been successfully downloaded")
